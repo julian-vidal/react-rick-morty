@@ -2,7 +2,7 @@ const Character = (character) => {
     return(
         <div className="col-3">
             <div className="card">
-                <img src={character.image} alt={character.name} width='300'/>
+                <img src={character.image} alt={character.name}/>
 
                 <div className="card-body">
                     <h3 className="card-title">{character.name}</h3>

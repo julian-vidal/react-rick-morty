@@ -22,7 +22,7 @@ const List = () =>  {
         <div>
             <h2>Characters</h2>
 
-            <div className="row">
+            <div className="row gy-4">
             {
                 loading ? (
                     <div>Loading...</div>
